@@ -15,7 +15,7 @@ void printStr(const String str) {
     printf("%s\n", str.data);
 }
 
-size_t getStringLength(const String str) {
+size_t len(const String str) {
     return str.length;
 }
 
